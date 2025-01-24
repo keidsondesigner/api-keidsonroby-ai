@@ -9,11 +9,11 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:4200',
-      'https://keidson-autocar-ai.vercel.app/',
-      'https://keidson-analise-doc.vercel.app/',
-      'https://keidson-code-review-ai.vercel.app/',
-      'https://keidson-locutor-ai.vercel.app/',
-      'https://keidson-plant-identifier.vercel.app/',
+      'https://keidson-autocar-ai.vercel.app',
+      'https://keidson-analise-doc.vercel.app',
+      'https://keidson-code-review-ai.vercel.app',
+      'https://keidson-locutor-ai.vercel.app',
+      'https://keidson-plant-identifier.vercel.app',
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     credentials: true,
