@@ -7,7 +7,14 @@ async function bootstrap() {
 
   // Configurando CORS para permitir requisições do frontend
   app.enableCors({
-    origin: ['http://localhost:4200'], // URL do frontend Angular
+    origin: [
+      'http://localhost:4200',
+      'https://keidson-autocar-ai.vercel.app/',
+      'https://keidson-analise-doc.vercel.app/',
+      'https://keidson-code-review-ai.vercel.app/',
+      'https://keidson-locutor-ai.vercel.app/',
+      'https://keidson-plant-identifier.vercel.app/',
+    ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     credentials: true,
   });
