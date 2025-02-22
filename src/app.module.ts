@@ -5,6 +5,7 @@ import { CodeReviewModule } from './modules/code-review/code-review.module';
 import { PlantScanModule } from './modules/plant-scan/plant-scan.module';
 import { ChatAutocarModule } from './modules/chat-autocar/chat-autocar.module';
 import { ChatLocutorModule } from './modules/chat-locutor/chat-locutor.module';
+import { HealthModule } from './health/health.module';
 
 @Module({
   imports: [
@@ -16,6 +17,7 @@ import { ChatLocutorModule } from './modules/chat-locutor/chat-locutor.module';
     PlantScanModule,
     ChatAutocarModule,
     ChatLocutorModule,
+    HealthModule,
   ],
   controllers: [],
   providers: [],

@@ -20,15 +20,16 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@firebase/app": "^0.10.16",
+    "@firebase/firestore": "^4.7.5",
+    "@google/generative-ai": "^0.21.0",
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.3.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.4.8",
+    "@nestjs/schedule": "^5.0.1",
     "@nestjs/swagger": "^8.0.7",
     "@types/multer": "^1.4.12",
-    "@firebase/app": "^0.10.16",
-    "@firebase/firestore": "^4.7.5",
-    "@google/generative-ai": "^0.21.0",
     "firebase": "^11.0.2",
     "reflect-metadata": "^0.2.0",
     "swagger-ui-express": "^5.0.1"
